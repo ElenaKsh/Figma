@@ -2,8 +2,10 @@
   position: absolute;
   width: 1440px;
   height: 134px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 .text {
@@ -14,7 +16,17 @@
   top: 52.54px;
 }
 
-.img{
+.content {
+  position: absolute;
+  width: 1440px;
+  height: 1500px;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.logo{
   position: absolute;
   width: 395.83px;
   height: 37.53px;
@@ -24,7 +36,7 @@
 
 .item1{
   position: relative;
-  padding: 31px;
+  margin: 0 31px;
   left: 476.59px;
   font-family: New York Small;
   font-style: normal;
@@ -67,6 +79,7 @@
 
 .question{
   position: absolute;
+  margin-top: 32px;
   width: 592px;
   height: 68px;
   left: 424px;
@@ -84,4 +97,42 @@
   color: #000000;
 }
 
+.line {
+  position: absolute;
+  margin-top: 34px;
+  width: 640px;
+  height: 0px;
+  left: 400px;
+  top: 1083px;
+}
+
+.articles {
+  position: absolute;
+  width: 225px;
+  height: 53px;
+  left: 608px;
+  top: 1147px;
+
+  font-family: New York Extra Large;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.flex-box {
+  position: absolute;
+  margin-top: 50px;
+  display: flex;
+  width: 1440px;
+  left: 300px;
+  top: 1239px;
+  right: 0;
+  margin: 0 auto;
+}
 
