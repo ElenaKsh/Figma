@@ -1,7 +1,7 @@
 header {
   position: absolute;
-  padding-top: 59px;
   width: 100%;
+  height: 133px;
   top: 0;
   left: 0;
   right: 0;
@@ -12,19 +12,23 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 133px;
+  top: 0;
 }
 
 .container {
   width: 100%;
   max-width: 1440px;
+  height: 133px;
+  top: 0;
   margin: 0 auto;
 }
 
-.logo {
-  width: 395.83px;
-  height: 37.53px;
-  left: 63.58px;
-  top: 52.54px;
+.logo p {
+  font-family: Quant Text;
+  font-size: 50px;
+  margin-left: 100px;
+  margin-top: 60px;
 }
 
 .text {
@@ -32,6 +36,7 @@ header {
   font-size: 20px;
   text-transform: uppercase;
   height: 40.46px;
+  margin-top: 10px;
 }
 
 .link {
@@ -39,11 +44,10 @@ header {
   display: inline-block;
   margin: 0 31px;
   vertical-align: top;
-  color: #000;
   text-decoration: none;
 }
 .link:after {
-  position: absolute;
+  position: relative;
   display: none;
   content: "";
   top: 100%;
@@ -51,8 +55,7 @@ header {
   height: 2px;
   left: 0;
   z-index: 1;
-  margin-top: 41px;
-  background-color: #000;
+  margin-top: 55px;
 }
 
 .link:hover:after {
@@ -90,7 +93,6 @@ header {
   font-size: 54px;
   line-height: 100%;
   text-align: center;
-  color: #000000;
 }
 
 .question {
@@ -107,7 +109,6 @@ header {
   font-size: 20px;
   line-height: 170%;
   text-align: center;
-  color: #000000;
 }
 
 .line {
@@ -132,7 +133,6 @@ header {
   font-size: 44px;
   line-height: 53px;
   text-align: center;
-  color: #000000;
 }
 
 .flex-box {
@@ -185,3 +185,4 @@ header {
   font-family: "SF Pro Display"; 
   src: url("fonts/SF-Pro-Display-Medium.otf"); 
 }
+

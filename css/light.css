@@ -1,0 +1,36 @@
+header {
+  background-color: #FFF;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.16);
+}
+
+body {
+  background-color: #FFF;
+}
+
+.logo p {
+  color: #000;
+}
+
+.link {
+  color: #000;
+}
+
+.link:after {
+  background-color: #000;
+}
+
+.info {
+  color: #000000;
+}
+
+.question {
+  color: #000000;
+}
+
+.articles {
+  color: #000000;
+}
+
+.art {
+  color: #000000;
+}
