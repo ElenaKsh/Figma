@@ -11,12 +11,16 @@ body {
   color: #000;
 }
 
-.link {
+.menu-item {
   color: #000;
 }
 
-.link:after {
+.menu-item:after {
   background-color: #000;
+}
+
+.line {
+  border-bottom-color: black;
 }
 
 .info {
@@ -27,7 +31,7 @@ body {
   color: #000000;
 }
 
-.articles {
+.caption {
   color: #000000;
 }
 

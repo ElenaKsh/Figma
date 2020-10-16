@@ -1,3 +1,28 @@
+@font-face {
+  font-family: "SF Mono"; 
+  src: url("fonts/SFMonoLight.otf"); 
+}
+
+@font-face {
+  font-family: "New York Extra Large"; 
+  src: url("fonts/NewYorkExtraLargeMedium.woff"); 
+}
+
+@font-face {
+  font-family: "SF Pro Display"; 
+  src: url("fonts/SFProDisplay-Regular.ttf"); 
+}
+
+@font-face {
+  font-family: "New York Small"; 
+  src: url("fonts/NewYorkSmall-Medium.otf"); 
+}
+
+@font-face {
+  font-family: "SF Pro Display"; 
+  src: url("fonts/SF-Pro-Display-Medium.otf"); 
+}
+
 header {
   position: absolute;
   width: 100%;
@@ -31,7 +56,7 @@ header {
   margin-top: 60px;
 }
 
-.text {
+.menu {
   font-family: New York Small;
   font-size: 20px;
   text-transform: uppercase;
@@ -39,14 +64,14 @@ header {
   margin-top: 10px;
 }
 
-.link {
+.menu-item {
   position: relative;
   display: inline-block;
   margin: 0 31px;
   vertical-align: top;
   text-decoration: none;
 }
-.link:after {
+.menu-item:after {
   position: relative;
   display: none;
   content: "";
@@ -58,7 +83,7 @@ header {
   margin-top: 55px;
 }
 
-.link:hover:after {
+.menu-item:hover:after {
   display: block;
 }
 
@@ -118,9 +143,11 @@ header {
   height: 0px;
   left: 400px;
   top: 1083px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
 }
 
-.articles {
+.caption {
   position: absolute;
   width: 225px;
   height: 53px;
@@ -135,7 +162,7 @@ header {
   text-align: center;
 }
 
-.flex-box {
+.articles {
   position: absolute;
   margin-top: 50px;
   display: flex;
@@ -159,30 +186,5 @@ header {
   font-size: 22px;
   line-height: 120%;
   text-align: center;
-}
-
-@font-face {
-  font-family: "SF Mono"; 
-  src: url("fonts/SFMonoLight.otf"); 
-}
-
-@font-face {
-  font-family: "New York Extra Large"; 
-  src: url("fonts/NewYorkExtraLargeMedium.woff"); 
-}
-
-@font-face {
-  font-family: "SF Pro Display"; 
-  src: url("fonts/SFProDisplay-Regular.ttf"); 
-}
-
-@font-face {
-  font-family: "New York Small"; 
-  src: url("fonts/NewYorkSmall-Medium.otf"); 
-}
-
-@font-face {
-  font-family: "SF Pro Display"; 
-  src: url("fonts/SF-Pro-Display-Medium.otf"); 
 }
 
