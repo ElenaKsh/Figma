@@ -147,13 +147,15 @@ header {
   border-bottom-style: solid;
 }
 
-.caption {
+.articles {
   position: absolute;
-  width: 225px;
-  height: 53px;
-  left: 608px;
-  top: 1147px;
+  max-width: 740px;
+  max-height: 1900px;
+  left: 400px;
+  top: 1239px;
+}
 
+.caption {
   font-family: New York Extra Large;
   font-style: normal;
   font-weight: bold;
@@ -161,16 +163,15 @@ header {
   line-height: 53px;
   text-align: center;
 }
-
-.articles {
+.caption p {
   position: absolute;
-  margin-top: 50px;
+  top: -120px;
+  left: 200px;
+}
+
+.articles_posting {
   display: flex;
-  width: 1440px;
-  left: 420px;
-  top: 1239px;
-  right: 0;
-  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .art {
